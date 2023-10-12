@@ -7,12 +7,17 @@ public class Lesson2Ex3 {
 
         Scanner input = new Scanner(System.in);
         a = input.nextInt();
+        System.out.println(isPrime(a));
+    }
+
+    public static int isPrime(int a) {
         if ( a % 2 == 0 ) {
             System.out.println("Число " + a + " - четное");
         }
         else {
             System.out.println("Число " + a + " - нечетное");
         }
+        return a;
     }
 }
 
